@@ -1,0 +1,145 @@
+#page-list-letter {
+    display: flex;
+  }
+  
+#page-list-letter main {
+    flex: 1;
+} 
+main .container {
+  width: 700px;
+  margin: 64px auto;
+
+}
+
+main .content{
+  width: 700px;
+  margin: 64px auto;
+
+  background: #FFFFFF;
+  border: 1px solid #D3E2E5;
+  border-radius: 20px;
+
+  padding: 32px 32px;
+
+  overflow: hidden;
+}
+
+main .content .header{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.8rem;
+}
+
+main .content .letter{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.8rem;
+  color: #8297a1;
+}
+main .content .footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .content .footer .red-button{
+    
+    width: 222px;
+    height: 56px;
+    background: #F93849;
+    border-radius: 20px;
+
+    border: none;
+
+    color: #FFF;
+    text-decoration: none;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+main .content .footer .red-button:hover{
+    background: #ffd666;
+    color: #444;
+}
+.container h3{
+  font-size: larger;
+  font-weight: 800;
+  color: #638190;
+}
+
+main .content .header .name{
+  font-size: larger;
+  font-weight: 800;
+  color: #638190;
+}
+
+main .content .header .location{
+  font-size: small;
+  font-weight: 600;
+  color: #bcc0c2;
+}
+  header .input-block{
+    margin: 24px 0;
+  }
+  header .input-block label {
+    display: flex;
+    color: #8297a1;
+    margin-bottom: 8px;
+    line-height: 24px;
+  }
+  
+  header .input-block label span {
+    font-size: 14px;
+    color: #8FA7B3;
+    margin-left: 24px;
+    line-height: 24px;
+  }
+  
+  header .input-block select{
+    padding: 1.3rem;
+    width: 100%;
+    background: #F5F8FA;
+    border: 1px solid #D3E2E5;
+    border-radius: 20px;
+    outline: none;
+    color: #5C8599;
+  }
+  header h1{
+    color: #638190;
+  }
+  header .input-block input {
+    height: 64px;
+    padding: 0 16px;
+  }
+
+  header .input-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header button.confirm-button {    
+    margin: 1.8rem 0 0 0;  
+    width: 64px;
+    height: 64px;
+    background: #3CDC8C;
+    border-radius: 20px;
+
+    color: #FFF;
+    text-decoration: none;
+
+    border: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+  }  
+  header button.confirm-button:hover {
+    background: #36CF82;
+  }

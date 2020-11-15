@@ -1,0 +1,204 @@
+#page-result{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-result.success{    
+    background: #37C77F;
+}
+
+#page-result.error{    
+    background: #F93849;
+}
+#page-result .content-wrapper{
+    position: relative;
+
+    width: 100%;
+    height: auto;
+    max-width: 1100px;
+    
+    height: 100%;
+    max-height: 680px;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+
+    background: url('../../images/landing.png') no-repeat 80% center
+}
+
+#page-result .content-wrapper main{
+    max-width: 350px;
+}
+
+#page-result .content-wrapper main h1{
+
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 70px;
+}
+#page-result .content-wrapper main p{
+    margin-top: 40px;
+
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.content-wrapper .location{
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    font-size: 24px;
+    line-height: 34px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.content-wrapper .location strong{
+    font-weight: 800;
+}
+
+.content-wrapper .enter-app{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    width: 80px;
+    height: 80px;
+    background: #ffd666;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+.content-wrapper .enter-app:hover{
+    background: #96FEFF;
+}
+
+
+.content-wrapper .red-button{    
+    margin: 64px 0;
+    width: 222px;
+    height: 56px;
+    background: #F93849;
+    border-radius: 20px;
+
+    color: #FFF;
+    text-decoration: none;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+.content-wrapper .red-button:hover{
+    background: #ffd666;
+    color: #444;
+}
+
+
+#page-result .content-wrapper-error{
+    position: relative;
+
+    width: 100%;
+    height: auto;
+    max-width: 1100px;
+    
+    height: 100%;
+    max-height: 680px;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+
+    background: url('../../images/error.png') no-repeat 80% center
+}
+
+#page-result .content-wrapper-error main{
+    max-width: 350px;
+}
+
+#page-result .content-wrapper-error main h1{
+
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 70px;
+}
+#page-result .content-wrapper-error main p{
+    margin-top: 40px;
+
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.content-wrapper-error .location{
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    font-size: 24px;
+    line-height: 34px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.content-wrapper-error .location strong{
+    font-weight: 800;
+}
+
+.content-wrapper-error .enter-app{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    width: 80px;
+    height: 80px;
+    background: #ffd666;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+.content-wrapper-error .enter-app:hover{
+    background: #96FEFF;
+}
+
+
+.content-wrapper-error .red-button{    
+    margin: 64px 0;
+    width: 222px;
+    height: 56px;
+    background: #ffd666;
+    border-radius: 20px;
+
+    color: #FFF;
+    text-decoration: none;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+.content-wrapper-error .red-button:hover{
+    background: #ddba59;
+    color: #444;
+}
