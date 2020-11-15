@@ -5,11 +5,6 @@
     </a>
 </p>
 ---
-<p align="center"> 
-<img width="300" src=".github/logo.png">
-</p>
-
----
 
 <img width="100%" src=".github/screens.png">
 
