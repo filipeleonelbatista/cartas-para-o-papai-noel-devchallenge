@@ -67,22 +67,19 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ---
 
-<p align="center">  
-    Entre em contato comigo
-    <br />
-    <br />
-    <a href="https://www.linkedin.com/in/filipelbatista/">
-        <img alt="LinkedIn" width="22px" src="./.github/052-linkedin.svg" />
-    </a>
-    &ensp;
-    <a href="mailto:filipe.x2016@gmail.com">
-        <img alt="Email" width="22px" src="./.github/gmail.svg" />
-    </a>
-    &ensp;
-    <a href="https://instagram.com/filipegaucho22">
-        <img alt="Instagram" width="22px" src="./.github/044-instagram.svg" />
-    </a>
-    <br />
-    <br />
-    Desenvolvido 💜 por Filipe Batista  
+<h3 align="center" >Vamos nos conectar 😉</h3>
+<p align="center">
+  <a href="https://www.linkedin.com/in/filipelbatista/">
+    <img alt="LinkedIn" width="22px" src="https://github.com/filipeleonelbatista/filipeleonelbatista/blob/master/assets/052-linkedin.svg" />
+  </a>&ensp;
+  <a href="mailto:filipe.x2016@gmail.com">
+    <img alt="Email" width="22px" src="https://github.com/filipeleonelbatista/filipeleonelbatista/blob/master/assets/gmail.svg" />
+  </a>&ensp;
+  <a href="https://instagram.com/filipegaucho22">
+    <img alt="Instagram" width="22px" src="https://github.com/filipeleonelbatista/filipeleonelbatista/blob/master/assets/044-instagram.svg" />
+  </a>
+</p>
+<br />
+<p align="center">
+    Desenvolvido 💜 por Filipe Batista 
 </p>
